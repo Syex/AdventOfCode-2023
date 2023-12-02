@@ -36,7 +36,7 @@ fun main() {
 }
 
 fun String.findTextNumber(): Int? {
-    if (startsWith("one")) return  1
+    if (startsWith("one")) return 1
     if (startsWith("two")) return 2
     if (startsWith("three")) return 3
     if (startsWith("four")) return 4
