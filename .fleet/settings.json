@@ -1,0 +1,3 @@
+{
+	"jps.build.additionalVmOptions": ["-Xmx8192m"]
+}
