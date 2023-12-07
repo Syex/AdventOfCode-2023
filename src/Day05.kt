@@ -77,7 +77,7 @@ private fun getMappings(input: List<String>, startIndex: Int, endIndex: Int): Li
 	return maps
 }
 
-data class Map(
+private data class Map(
 		val sources: LongRange,
 		val destinations: LongRange,
 )
