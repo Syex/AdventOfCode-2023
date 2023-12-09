@@ -4,8 +4,9 @@ fun main() {
 	println("----")
 
 	var result = 0
-	input.map { completeSequence(it) }
+	input.map { completeSequence(it.reversed()) }
 			.map { advanceSequence(it) }
+			.map { it }
 			.forEach {
 				result += it.first().last()
 				it.forEach {
@@ -13,7 +14,7 @@ fun main() {
 				}
 				println("----")
 			}
-	
+
 	println("Result is $result")
 }
 
